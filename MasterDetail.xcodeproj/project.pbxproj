@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		038702C318805C79008DAB41 /* topmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0396A8B818765C3400E7242B /* topmovies.json */; };
+		03D5B70B18D8D509000702D6 /* IDTBooksAndMoviesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D5B70A18D8D509000702D6 /* IDTBooksAndMoviesDataSource.m */; };
 		03FFDB391860F602002C3D53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFDB381860F602002C3D53 /* Foundation.framework */; };
 		03FFDB3B1860F602002C3D53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFDB3A1860F602002C3D53 /* CoreGraphics.framework */; };
 		03FFDB3D1860F602002C3D53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FFDB3C1860F602002C3D53 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0396A8B818765C3400E7242B /* topmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topmovies.json; sourceTree = "<group>"; };
+		03D5B70918D8D509000702D6 /* IDTBooksAndMoviesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTBooksAndMoviesDataSource.h; sourceTree = "<group>"; };
+		03D5B70A18D8D509000702D6 /* IDTBooksAndMoviesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTBooksAndMoviesDataSource.m; sourceTree = "<group>"; };
 		03FFDB351860F602002C3D53 /* MasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FFDB381860F602002C3D53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03FFDB3A1860F602002C3D53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				03FFDB4A1860F602002C3D53 /* Main.storyboard */,
 				03FFDB4D1860F602002C3D53 /* IDTViewController.h */,
 				03FFDB4E1860F602002C3D53 /* IDTViewController.m */,
+				03D5B70918D8D509000702D6 /* IDTBooksAndMoviesDataSource.h */,
+				03D5B70A18D8D509000702D6 /* IDTBooksAndMoviesDataSource.m */,
 				03FFDB6D18610581002C3D53 /* IDTDetailViewController.h */,
 				03FFDB6E18610581002C3D53 /* IDTDetailViewController.m */,
 				03FFDB501860F602002C3D53 /* Images.xcassets */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FFDB491860F602002C3D53 /* IDTAppDelegate.m in Sources */,
+				03D5B70B18D8D509000702D6 /* IDTBooksAndMoviesDataSource.m in Sources */,
 				03FFDB4F1860F602002C3D53 /* IDTViewController.m in Sources */,
 				03FFDB451860F602002C3D53 /* main.m in Sources */,
 				03FFDB6F18610581002C3D53 /* IDTDetailViewController.m in Sources */,
